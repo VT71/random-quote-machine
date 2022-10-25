@@ -10,19 +10,7 @@ function App() {
     const generateRandom = () => {
         let newImgIndex = Math.floor(Math.random() * 9);
         let newQuoteIndex = Math.floor(Math.random() * 9);
-        /*
-        while (newImgIndex === imgIndex) {
-            console.log('Inside while 1');
-            newImgIndex = Math.floor(Math.random() * 9);
-        }
-        */
         setImage(newImgIndex);
-        /*
-        while (newQuoteIndex === quoteIndex) {
-            console.log('Inside while 2');
-            newQuoteIndex = Math.floor(Math.random() * 9);
-        }
-        */
         setQuote(newQuoteIndex);
     };
 
